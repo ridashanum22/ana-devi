@@ -1,7 +1,7 @@
 :root {
-  --pink: #0277fd;
+  --pink: #d8ae7e;
   --awal: #000000;
-  --bg: #0b4d83;
+  --bg: #d4a269;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
@@ -35,7 +35,7 @@ body {
 .hero h4,
 .hero p {
   text-shadow: var(--shadow);
-  color: #10acf5;
+  color: #d6a170;
 }
 
 .hero h1 {
@@ -88,7 +88,7 @@ body {
 }
 
 .home {
-  background-image: url(img/gallery/bg.png);
+  background-image: url(img/gallery/b1.png);
   background-size: cover;
   min-height: 100vh;
   margin-top: -6rem;
@@ -98,12 +98,12 @@ body {
 }
 .rsvp h2
 {
- color: #000000; 
+ color: #ffffff; 
  font-family: 'Sacramento';
  font-size: 5rem;
  font-weight: bold;
 }
-.info h2,
+
 .home h2,
 .undang h2,
 .home h3 {
@@ -113,7 +113,12 @@ body {
   font-weight: bold;
 }
 
-
+.info h2 {
+  color:#ffffff;
+  font-family: 'Sacramento';
+  font-size: 5rem;
+  font-weight: bold;
+}
 
 .story h2,
 .gallery h2,
@@ -188,24 +193,30 @@ body {
 
 .info .card {
   background-color: rgba(255, 255, 255, 0.2) !important;
-  color: rgb(0, 0, 0) !important;
-  border: 1px solid #999;
+  color: rgb(255, 255, 255) !important;
+  border: 1px solid #ffffff;
 }
 
 .info .card-header {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  color: #000000;
+}
+.info .span {
+  color: #000000;
 }
 
 .info .card-body {
   font-size: 1rem;
+  color: #000000;
 }
 
 .info .card-footer {
-  border-top: 1px solid #999;
+  border-top: 1px solid #ffffff;
   font-size: 0.9rem;
   font-weight: 300;
+  color: #000000;
 }
 
 .story,
@@ -347,7 +358,7 @@ body {
 }
 
 .rsvp h4 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .rsvp form label {
@@ -454,7 +465,7 @@ footer li {
 }
 
 .undang {
-  background-image: url(img/gallery/bgg.jpg);
+  background-image: url(img/gallery/b1.png);
   background-size: cover;
   min-height: 100vh;
   margin-top: -6rem;
